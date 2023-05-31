@@ -18,7 +18,7 @@
 ## About Koyeb and the Upstash Redis example application
 
 Koyeb is a developer-friendly serverless platform to deploy apps globally. No-ops, servers, or infrastructure management.
-This repository contains a Remix application you can deploy on the Koyeb serverless platform for testing.
+This repository contains an example express application you can deploy on the Koyeb serverless platform for testing.
 
 This example application is designed to show how to deploy an application that uses an Upstash Redis database to Koyeb.
 
@@ -59,7 +59,7 @@ On the [Koyeb Control Panel](//app.koyeb.com/), click the **Create App** button 
 6. Name the App, for example `example-koyeb-upstash`.
 7. Click the **Deploy** button.
 
-You land on the deployment page where you can follow the build of your Remix application. Once the build is completed, your application is being deployed and you will be able to access it via `<YOUR_APP_NAME>-<YOUR_ORG_NAME>.koyeb.app`.
+You land on the deployment page where you can follow the build of your example application. Once the build is completed, your application is being deployed and you will be able to access it via `<YOUR_APP_NAME>-<YOUR_ORG_NAME>.koyeb.app`.
 
 ## Contributing
 
