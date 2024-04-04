@@ -49,15 +49,12 @@ If you want to customize and enhance this application, you need to fork this rep
 If you used the **Deploy to Koyeb** button, you can simply link your service to your forked repository to be able to push changes.
 Alternatively, you can manually create the application as described below.
 
-On the [Koyeb Control Panel](//app.koyeb.com/), click the **Create App** button to go to the App creation page.
+On the [Koyeb Control Panel](//app.koyeb.com/), on the **Overview** tab, click the **Create Web Service** button to begin.
 
-1. Click **Create App** in the Koyeb control panel.
-2. Select **GitHub** as the deployment option.
-3. Choose the GitHub **repository** and **branch** containing your application code.
-4. Name your service, for example `example-koyeb-upstash`.
-5. Click **Advanced** to view additional options.  Under **Environment variables**, click **Add Variable** to add two new variables called `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN`.  Populate them with the values you copied for your Upstash Redis database.
-6. Name the App, for example `example-koyeb-upstash`.
-7. Click the **Deploy** button.
+1. Select **GitHub** as the deployment method.
+2. Choose the repository containing your application code.
+3. Under **Environment variables**, click **Add variable** to add two new variables called `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN`.  Populate them with the values you copied for your Upstash Redis database.
+4. Choose a name for your App and Service, for example `example-koyeb-upstash`, and click **Deploy**.
 
 You land on the deployment page where you can follow the build of your example application. Once the build is completed, your application is being deployed and you will be able to access it via `<YOUR_APP_NAME>-<YOUR_ORG_NAME>.koyeb.app`.
 
